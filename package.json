@@ -1,7 +1,7 @@
 {
   "name": "es6-boilerplate",
   "version": "1.0.0",
-  "description": "ES6 Boilerplate",
+  "description": "Standard ES6 Boilerplate configured with babel, webpack and eslint.",
   "main": "index.js",
   "scripts": {
     "start": "npm-run-all --parallel dev:server lint:watch",
