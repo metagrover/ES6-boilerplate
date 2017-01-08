@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm-run-all --parallel dev:server lint:watch",
-    "dev:server": "webpack-dev-server -d --progress --colors --no-info",
+    "dev:server": "webpack-dev-server --hot --inline",
     "watch": "webpack -w -d",
     "build": "webpack -p",
     "lint": "node_modules/.bin/esw webpack.config.* src --color",
